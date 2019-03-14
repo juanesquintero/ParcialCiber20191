@@ -25,8 +25,7 @@ Instructivo:		1. Abrir consonal en la kali linux
 			3. Indicar el exploit que se utilizara con "use (modulo_del_exploit)"
 			4. Al estar dentro del exloit usar "show info" para mostrar la informacion de este.
 			5. Usar el comando "show options" para mostrar las opciones de lanzamiento
-			6. 
-			7.
-			8. 
+			6. Setear los archivos .pdf y .exe si se quieren cambiar los que estan por defecto (evil.pdf y msf.exe)
+			7. Setear el target que se usara solo hay 1 entonces correr "set TARGET 0"
 
 
