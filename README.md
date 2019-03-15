@@ -1,15 +1,15 @@
 
-Nombre:			- Adobe PDF Escape EXE Social Engineering (No JavaScript)
+###Nombre:			- Adobe PDF Escape EXE Social Engineering (No JavaScript)
 Modulo			- exploit/windows/fileformat/adobe_pdf_embedded_exe_nojs
 Autor:			- Jeremy Conway <jeremy@sudosecure.net>
 Tipo:			- Local
 Publicacion:		- 2010-03-29
-Descripcion:		- Este mÛdulo integra una carga ˙til Metasploit en un archivo PDF existente en un mÈtodo no est·ndar.
-			  El PDF resultante se puede enviar a un destino como parte de un ataque de ingenierÌa social.
-			  Esta es una versiÛn modificada de Adobe PDF Embedded EXE Social Engineering "adobe_pdf_embedded_exe.rb".
-			  no requiere que JavaScript estÈ habilitado y no requiere que el .exe estÈ adjunto al PDF.
-			  El .exe est· incrustado en el PDF en un mÈtodo no est·ndar utilizando HEX codificaciÛn.
-			  Es un montÛn de cÛdigo reutilizado de adobe_pdf_embedded_exe.rb y los otros mÛdulos de PDF.
+Descripcion:		- Este m√≥dulo integra una carga √∫til Metasploit en un archivo PDF existente en un m√©todo no est√°ndar.
+			  El PDF resultante se puede enviar a un destino como parte de un ataque de ingenier√≠a social.
+			  Esta es una versi√≥n modificada de Adobe PDF Embedded EXE Social Engineering "adobe_pdf_embedded_exe.rb".
+			  no requiere que JavaScript est√© habilitado y no requiere que el .exe est√© adjunto al PDF.
+			  El .exe est√° incrustado en el PDF en un m√©todo no est√°ndar utilizando HEX codificaci√≥n.
+			  Es un mont√≥n de c√≥digo reutilizado de adobe_pdf_embedded_exe.rb y los otros m√≥dulos de PDF.
 
 Codigo en ruby:		- https://www.exploit-db.com/exploits/16682			
 Sistema Operativo: 	- Windows
