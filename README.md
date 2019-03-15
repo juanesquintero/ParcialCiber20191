@@ -3,7 +3,7 @@ Adobe PDF Escape EXE Social Engineering (No JavaScript)<br>
 <br>	**Modulo:**		<br>
 ```exploit/windows/fileformat/adobe_pdf_embedded_exe_nojs```<br>
 <br>	**Autor:**		<br>
-```Jeremy Conway <jeremy@sudosecure.net>```<br>
+Jeremy Conway <jeremy@sudosecure.net><br>
 <br>	**Tipo:**<br>
 ```Local```<br>
 <br>	**Publicacion:**<br>
@@ -16,7 +16,7 @@ Este módulo integra una carga útil Metasploit en un archivo PDF existente en u
 			  El .exe está incrustado en el PDF en un método no estándar utilizando HEX codificación.
 			  Es un montón de código reutilizado de adobe_pdf_embedded_exe.rb y los otros módulos de PDF.
 			  ```<br>
-<br>	**Codigo en ruby:**<br>```	https://www.exploit-db.com/exploits/16682```<br>
+<br>	**Codigo en ruby:**<br>	https://www.exploit-db.com/exploits/16682<br>
 <br>	**Sistema Operativo:**<br> 	```Windows```<br>
 <br>	**Software:**<br>		```Adobe Reader <= v9.3.3 (Windows XP SP3 English)```<br>
 <br>	**Nombre exe:**<br>		```msf.exe```<br>
