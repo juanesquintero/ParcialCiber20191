@@ -1,35 +1,15 @@
-
-<<<<<<< HEAD
-<<<<<<< HEAD
 **Nombre:**		- Adobe PDF Escape EXE Social Engineering (No JavaScript)
-**Modulo:**			- exploit/windows/fileformat/adobe_pdf_embedded_exe_nojs
-**Autor:**			- Jeremy Conway <jeremy@sudosecure.net>
-**Tipo:**			- Local
-**Publicacion:**		- 2010-03-29
-**Descripcion:**		- Este mÛdulo integra una carga ˙til Metasploit en un archivo PDF existente en un mÈtodo no est·ndar.
-			  El PDF resultante se puede enviar a un destino como parte de un ataque de ingenierÌa social.
-			  Esta es una versiÛn modificada de Adobe PDF Embedded EXE Social Engineering "adobe_pdf_embedded_exe.rb".
-			  no requiere que JavaScript estÈ habilitado y no requiere que el .exe estÈ adjunto al PDF.
-			  El .exe est· incrustado en el PDF en un mÈtodo no est·ndar utilizando HEX codificaciÛn.
-			  Es un montÛn de cÛdigo reutilizado de adobe_pdf_embedded_exe.rb y los otros mÛdulos de PDF.
-=======
-***Nombre:***		 - Adobe PDF Escape EXE Social Engineering (No JavaScript)
-=======
-**Nombre:**		 - Adobe PDF Escape EXE Social Engineering (No JavaScript)
->>>>>>> d47d784b506e1db078f8b5071ac7a5007dd81e8f
-##### Modulo			- exploit/windows/fileformat/adobe_pdf_embedded_exe_nojs
-##### Autor:			- Jeremy Conway <jeremy@sudosecure.net>
-Tipo:			- Local
-Publicacion:		- 2010-03-29
-Descripcion:		- Este m√≥dulo integra una carga √∫til Metasploit en un archivo PDF existente en un m√©todo no est√°ndar.
+**Modulo:**		- exploit/windows/fileformat/adobe_pdf_embedded_exe_nojs
+**Autor:**		- Jeremy Conway <jeremy@sudosecure.net>
+**Tipo:**		- Local
+**Publicacion:**	- 2010-03-29
+**Descripcion:**	- Este m√≥dulo integra una carga √∫til Metasploit en un archivo PDF existente en un m√©todo no est√°ndar.
 			  El PDF resultante se puede enviar a un destino como parte de un ataque de ingenier√≠a social.
 			  Esta es una versi√≥n modificada de Adobe PDF Embedded EXE Social Engineering "adobe_pdf_embedded_exe.rb".
 			  no requiere que JavaScript est√© habilitado y no requiere que el .exe est√© adjunto al PDF.
 			  El .exe est√° incrustado en el PDF en un m√©todo no est√°ndar utilizando HEX codificaci√≥n.
 			  Es un mont√≥n de c√≥digo reutilizado de adobe_pdf_embedded_exe.rb y los otros m√≥dulos de PDF.
->>>>>>> bdf4a1748262d91f0bce0c4ea7a82a2912f2c0c0
-
-**Codigo en ruby:**		- https://www.exploit-db.com/exploits/16682			
+**Codigo en ruby:**	- https://www.exploit-db.com/exploits/16682			
 **Sistema Operativo:** 	- Windows
 **Software:**		- Adobe Reader <= v9.3.3 (Windows XP SP3 English)
 **Nombre exe:**		- msf.exe
@@ -37,8 +17,8 @@ Descripcion:		- Este m√≥dulo integra una carga √∫til Metasploit en un archivo PD
 **Mensaje:**		- To view the encrypted content please tick the "Do not show this message again" box and press Open.
 
 
-**Instructivo:** 1. Abrir terminal en la kali linux
- 2. Iniciar el metasploit framework con "msfconsole"
+**Instructivo:** 	1. Abrir terminal en la kali linux
+			2. Iniciar el metasploit framework con "msfconsole"
 			3. Buscar el exlpoit con "search" 
 			4. Indicar el exploit que se utilizara con "use (modulo_del_exploit)"
 			5. Al estar dentro del exloit usar "show info" para mostrar la informacion de este.
@@ -50,12 +30,11 @@ Descripcion:		- Este m√≥dulo integra una carga √∫til Metasploit en un archivo PD
 			11. Buscar y enviar el archivo pdf infectado a la maquina victima por medio de la carpeta compartida
 			12. Abrir el archivo en la maquina victima con el "Adobe Reader 9.3.3" 
 
-Comentarios:		-El exe no ejecuto, por un problema de privilegios que restringe el Adobe Reader 9.3.3, busque el error o mensaje 
-			 que se muestra en el video, desabilite la seguridad del Adobe per aun asi siguio saliendo el error, 
-			 aun asi realice todo el procedimiento y el exploit si lo leepero no ejecuta el .exe.
+**Comentarios:**	-El exe no ejecuto, por un problema de privilegios que restringe el Adobe Reader 9.3.3, busque el error 				y mensaje que se muestra en el video, desabilite la seguridad del Adobe per aun asi siguio saliendo el error, 
+			aun asi realice todo el procedimiento y el exploit si lo leepero no ejecuta el .exe.
 
-Error:			- "this file is set to be launched by this PDF file. This currently disallowed by your system administrator"
-			  "C:\WINDOWS\system32\cmd.exe"
+**Error:**		-"this file is set to be launched by this PDF file. This currently disallowed by your system administrator"
+			"C:\WINDOWS\system32\cmd.exe"
 
 
 
