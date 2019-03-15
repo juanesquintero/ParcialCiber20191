@@ -1,5 +1,6 @@
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 **Nombre:**		- Adobe PDF Escape EXE Social Engineering (No JavaScript)
 **Modulo:**			- exploit/windows/fileformat/adobe_pdf_embedded_exe_nojs
 **Autor:**			- Jeremy Conway <jeremy@sudosecure.net>
@@ -13,6 +14,9 @@
 			  Es un montón de código reutilizado de adobe_pdf_embedded_exe.rb y los otros módulos de PDF.
 =======
 ***Nombre:***		 - Adobe PDF Escape EXE Social Engineering (No JavaScript)
+=======
+**Nombre:**		 - Adobe PDF Escape EXE Social Engineering (No JavaScript)
+>>>>>>> d47d784b506e1db078f8b5071ac7a5007dd81e8f
 ##### Modulo			- exploit/windows/fileformat/adobe_pdf_embedded_exe_nojs
 ##### Autor:			- Jeremy Conway <jeremy@sudosecure.net>
 Tipo:			- Local
