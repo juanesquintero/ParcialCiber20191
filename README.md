@@ -42,6 +42,6 @@ Local<br>
 			"C:\WINDOWS\system32\cmd.exe"</p><br>
 
 
-
+![NO CARGO LA IMAGEN xD](https://i.kym-cdn.com/entries/icons/mobile/000/000/028/Fail-Stamp-Transparent_copy.jpg)
 
 
