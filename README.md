@@ -1,7 +1,7 @@
 
-##Nombre:			- Adobe PDF Escape EXE Social Engineering (No JavaScript)
-Modulo			- exploit/windows/fileformat/adobe_pdf_embedded_exe_nojs
-Autor:			- Jeremy Conway <jeremy@sudosecure.net>
+##### Nombre:		 - Adobe PDF Escape EXE Social Engineering (No JavaScript)
+##### Modulo			- exploit/windows/fileformat/adobe_pdf_embedded_exe_nojs
+##### Autor:			- Jeremy Conway <jeremy@sudosecure.net>
 Tipo:			- Local
 Publicacion:		- 2010-03-29
 Descripcion:		- Este módulo integra una carga útil Metasploit en un archivo PDF existente en un método no estándar.
